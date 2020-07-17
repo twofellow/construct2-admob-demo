@@ -1,21 +1,22 @@
 ﻿<?xml version="1.0" encoding="UTF-8" ?>
-<widget id="costruct.addmob.app" version="1.0.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="construct.admob.app" version="1.0.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
 	<name>Construct2-admob</name>
-	<description>Construct 2 admob demo</description>
-	<author href="http://thefiftyguild.blogspot.com/">Jimmy Koproto</author>
+	<description>Construct2 admob demo</description>
+	<author href="http://androidresearch.net"></author>
 
 	<icon src="www/icon-256.png" width="256" height="256" density="xxxhdpi" />
 	<icon src="www/icon-128.png" width="128" height="128" density="xhdpi" />
 
-	<preference name="android-targetSdkVersion" value="28" />
+	<preference name="android-targetSdkVersion" value="26" />
 
-	<preference name="orientation" value="default" />
+	<preference name="orientation" value="portrait" />
 	<preference name="fullscreen" value="true" />
 	<preference name="DisallowOverscroll" value="true" />
 	<preference name="AllowInlineMediaPlayback" value="true" />
 	<preference name="phonegap-version" value="cli-8.0.0" />
 
-	<preference name="deployment-target" value="10.0" />
+
+	<preference name="deployment-target" value="8.0" />
 	<preference name="android-minSdkVersion" value="21" />
 	<access origin="*" />
 
@@ -23,7 +24,7 @@
 	<plugin name="cordova-plugin-statusbar" />
 	<plugin name="cordova-plugin-whitelist" />
 	<plugin name="cordova-plugin-admob-free">
-		<variable name="ADMOB_APP_ID" value="ca-app-pub-3940256099942544~3347511713" />
+		<variable name="ADMOB_APP_ID" value="ca-app-pub-3940256099942544~3347511713"/>
 	</plugin>
 
 	<engine name="android" />
